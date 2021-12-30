@@ -1,0 +1,4 @@
+- Menurut saya untuk percobaan menggunakan 500 samples sudah cukup maximum dan performance nya berjalan dengan lancar
+- Untuk meningkatkan kinerja pada improve performance kita bisa menggunakan lebih sedikit samples
+- Karena semakin dikit sample kinerja akan semakin tepat, namun untuk ketepatan data belum terwakilkan
+- Jika kita menggunakan sample 500 misalnya itu akan lebih menggambar performance Load Test tersebut
