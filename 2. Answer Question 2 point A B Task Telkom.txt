@@ -1,0 +1,43 @@
+public class assertion
+{
+  public static void main (String[]args)
+  {
+    String name, courier, product;
+    int orderNumber, total;
+    String[] item = { "laptop asus", "laptop acer", "Macbook pro"};
+    int[] price = { 12000000, 10000000, 30000000 };
+    int[] code = { 200, 0 };
+
+    item[0] = "laptop asus";
+    item[1] = "laptop acer";
+    item[2] = "Macbook pro";
+    price[0] = 12000000;
+    price[1] = 10000000;
+    price[2] = 30000000;
+    name = "sidik hadi wijaya";
+    orderNumber = 76542019;
+    courier = "JNE";
+    total = price[0] + price[1] + price[2];
+    code[0] = 200;
+    code[1] = 0;
+
+    System.out.println ("name : " + name);
+    System.out.println ("orderNumber: " + orderNumber);
+    System.out.println ("courier: " + courier);
+    System.out.println ("product: " + item[0] + " price: " + price[0]);
+    System.out.println ("product: " + item[1] + " price: " + price[1]);
+    System.out.println ("product: " + item[2] + " price: " + price[2]);
+    System.out.println ("total : " + total);
+
+    if (total >= 52000000)
+      {
+	System.out.println ("TestPassed");
+	System.out.println ("code : " + code[0]);
+      }
+    else
+      {
+	System.out.println ("TestFailed");
+	System.out.println ("code : " + code[1]);
+      }
+  }
+}
